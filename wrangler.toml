@@ -1,0 +1,16 @@
+name = "parcel-api"
+main = "src/index.ts"
+
+compatibility_date = "2022-11-22"
+
+logpush = true
+
+[vars]
+PUBLIC_JWK_CACHE_KV = "YOUR_PUBLIC_JWK_CACHE_KV"
+PUBLIC_JWK_CACHE_KEY = "YOUR_PUBLIC_JWK_CACHE_KEY"
+
+[[kv_namespaces]]
+binding = "YOUR_CLOUDFLARE_BINDING"
+id = "YOUR_CLOUDFLARE_BINDING_ID"
+preview_id = "YOUR_CLOUDFLARE_BINDING_PREVIEW_ID"
+

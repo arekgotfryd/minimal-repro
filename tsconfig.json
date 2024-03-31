@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["ES2020"],
+    "types": ["jest", "@cloudflare/workers-types/2023-07-01"]
+  }
+}

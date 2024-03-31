@@ -1,0 +1,15 @@
+dist
+node_modules
+worker
+package-lock.json
+yarn.lock
+.cargo-ok
+coverage
+
+# Output of 'npm pack'
+*.tgz
+
+# wrangler files
+.wrangler
+.dev.vars
+wrangler_my.toml
